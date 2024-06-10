@@ -43,3 +43,9 @@ const buildTree = (rootKey: string, studentRole: string, data: any[], currentDep
 const getItemByKey = (key: string, currentData: any[]) => currentData.find((item) => item.key === key);
 
 const tree = buildTree(rootKey, studentRole, currentData, 1);
+
+const printTreeIteratively = (node, indent = "") => {
+  if (!node) return;
+};
+
+printTreeIteratively(tree, "");
