@@ -23,7 +23,6 @@ export const buildTree = (
 ): TreeNode => {
   const root = getItemByKey(rootKey, data);
   if (!root || !root.permissions.read.includes(studentRole)) {
-    console.log("Root file could not be found, terminating the program.");
     return null;
   }
   
