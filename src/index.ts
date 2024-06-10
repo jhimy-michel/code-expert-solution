@@ -9,7 +9,7 @@ import { TreeNode } from "./utils/treeType";
  * Solution for the code-expert task.
  * 
  * 1. Load the data from a JSON file.
- * 2. Filter the data to include only the current and readable items.
+ * 2. Filter the data to include only the current (current === true) and files that can be read by the role (e.g.: "student" role).
  * 3. Build the tree structure using a recursive function.
  * 4. Print the tree structure to the console.
  */

@@ -23,7 +23,15 @@ Open a terminal and execute:
 npm run start
 ```
 
-## Algorithm
+## How to run tests
+
+Open a terminal and execute:
+
+```bash
+npm run test
+```
+
+## Implementation
 
 The implementation of the code follows these steps:
 
