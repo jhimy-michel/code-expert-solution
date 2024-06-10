@@ -1,5 +1,5 @@
 /**
- * Constant values used along the application
+ * Constant values used throughout the application
  */
 
 export const studentRole = "student";
