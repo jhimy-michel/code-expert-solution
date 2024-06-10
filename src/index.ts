@@ -46,6 +46,13 @@ const tree = buildTree(rootKey, studentRole, currentData, 1);
 
 const printTreeIteratively = (node, indent = "") => {
   if (!node) return;
+  
+  const readOnlyFlag = !node.isWritable ? " (r)" : "";
+  console.log(`${indent}${node.name}${readOnlyFlag}`);
+
+  if (node.children && node.children.length > 0) {
+    node.children.forEach((child) => printTreeIteratively(child, indent + "\t"));
+  }
 };
 
 printTreeIteratively(tree, "");
