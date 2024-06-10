@@ -6,8 +6,8 @@ This code reads a JSON file that represents a folder/file structure and displays
 
 Make sure to have the following installed:
 
-* Nodejs v18
-* npm v9.8.1
+- Nodejs v18
+- npm v9.8.1
 
 To install dependencies open a terminal and run:
 
@@ -40,3 +40,16 @@ The implementation of the code follows these steps:
 3. Filter all data with permissions (e.g.: all data that can be readed by "student" role).
 4. Built tree folder structure using recursion.
 5. Print tree.
+
+## Folder Structure
+
+The project's folder structure is as follows:
+
+- src/: Contains the source code of the project.
+  - index.ts: Main file that contains the main implementation.
+  - data/: Contains the JSON file that represents the folder/file structure.
+  - utils/: Contains all utility functions created to solve the problem.
+
+## License
+
+The project is licensed under the MIT License.
