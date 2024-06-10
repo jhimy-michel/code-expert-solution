@@ -9,7 +9,7 @@ import { TreeNode } from "./treeType";
  * If so, it recursively builds the tree for each child node and adds it to the `children` array of the current node.
  * The function also includes a check to ensure that the maximum folder depth is not exceeded.
  * This is done by incrementing a `currentDept` variable each time a child node is processed and checking it against the `maxFolderDepth` constant.
- * @param rootKey - the key of the root filde (".")
+ * @param rootKey - the key of the root file (".")
  * @param studentRole - role of the student
  * @param data - list of folder/file to process
  * @param currentDept - current depth of the tree

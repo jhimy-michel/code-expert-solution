@@ -1,15 +1,34 @@
 # Code expert solution
 
-Solution to implement:
+This code reads a JSON file that represents a folder/file structure and displays it.
 
-- We should filter the data first so we dont have too much data to deal with.
-- Current === true
-- Additionally we can also filter if we can at least read with student role.
-- We can build a nested object with the root being the folder "."
-- then we add the rest inside
-- we print the tree
+## Before Running the Code
 
-should we use recursion or iteration?
-how to prevent issues?
-what validations we have to add?
-corner cases?
+Make sure to have the following installed:
+
+* Nodejs v18
+* npm v9.8.1
+
+To install dependencies open a terminal and run:
+
+```bash
+npm install
+```
+
+## How to run the code
+
+Open a terminal and execute:
+
+```bash
+npm run start
+```
+
+## Algorithm
+
+The implementation of the code follows these steps:
+
+1. Read data from the JSON file.
+2. Filter all data which is `current === true`.
+3. Filter all data with permissions (e.g.: all data that can be readed by "student" role).
+4. Built tree folder structure using recursion.
+5. Print tree.
